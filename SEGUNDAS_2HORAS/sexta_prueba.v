@@ -29,7 +29,7 @@ module     mux_assign
 (
     input	[7:0]	a, b,
     input		sl,
-    output reg 	[7:0]	y
+    output 	[7:0]	y
 ) ;
 
 assign #1 y = (sl) ? a : b;
