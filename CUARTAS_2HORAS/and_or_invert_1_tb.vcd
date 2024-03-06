@@ -1,0 +1,79 @@
+$date
+	Wed Mar 06 09:58:09 2024
+$end
+$version
+	QuestaSim Version 2020.2
+$end
+$timescale
+	1ns
+$end
+
+$scope module and_or_invert_1_tb $end
+$var reg 1 ! A $end
+$var reg 1 " B $end
+$var reg 1 # C $end
+$var reg 1 $ D $end
+$var wire 1 % TZ $end
+
+$scope module and_or_invert_1_inst $end
+$var wire 1 & A $end
+$var wire 1 ' B $end
+$var wire 1 ( C $end
+$var wire 1 ) D $end
+$var reg 1 * TZ $end
+$var reg 1 + TM $end
+$var reg 1 , TN $end
+$var reg 1 - TO $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+1*
+0+
+0,
+0-
+1%
+0)
+0(
+0'
+0&
+$end
+#5
+1!
+1&
+#10
+1"
+1'
+1+
+1-
+0*
+0%
+#15
+1#
+1(
+#20
+1$
+1)
+1,
+#25
+0!
+0&
+0+
+#30
+0"
+0'
+#35
+0#
+0(
+0,
+0-
+1*
+1%
+#40
+0$
+0)
