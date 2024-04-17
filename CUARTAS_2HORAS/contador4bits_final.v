@@ -13,6 +13,8 @@ begin
     if (enable)
     	Q <= Q + 1'b1;
 end
+//terminal count
+
 assign final_cuenta = (Q == 4'b1111);
 assign TC = final_cuenta;
 endmodule

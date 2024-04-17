@@ -22,7 +22,7 @@ always #5  clk = ! clk ;
 
 initial begin
   $dumpfile("DFF_tb.vcd");
-  $dumpvars(1, DFF_tb);
+  $dumpvars(0, DFF_tb);
   #100 $finish;
 end
 initial begin

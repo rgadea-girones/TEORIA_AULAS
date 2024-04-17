@@ -49,15 +49,15 @@ module and_or_invert_1_tb;
 //always #5  clk = ! clk ;
     //initial para monitorizar
     initial begin
-        $monitor("A=%b B=%b C=%b D=%b TZ1=%b TZ2=%b", A, B, C, D, TZ1, TZ2); 
+        $monitor("tiempo %0t ns: A=%b B=%b C=%b D=%b TZ1=%b TZ2=%b",$realtime/1e3, A, B, C, D, TZ1, TZ2); 
     end 
 
-always 
+always @(TZ1 or TZ2 )
 //display time
-    begin: monitor
-        wait(TZ1!==TZ2);
-        $display("Error las salidas son diferentes en tiempo %0t ns: TZ1=%b TZ2=%b", $realtime/1e3,TZ1, TZ2);
-        @(TZ1,TZ2);
+    begin: monitora
+        #0.001;
+        if(TZ1!==TZ2) $display("Error las salidas son diferentes en tiempo %0t ns: TZ1=%b TZ2=%b", $realtime/1e3,TZ1, TZ2);
     end
+ 
 
 endmodule
