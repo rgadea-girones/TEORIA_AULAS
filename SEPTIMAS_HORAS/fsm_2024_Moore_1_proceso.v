@@ -1,4 +1,4 @@
-module fsm_ones_moore_2 (data_in, clk, reset, detect);
+module fsm_ones_moore_1 (data_in, clk, reset, detect);
 input data_in,clk,reset;
 output reg detect; //tipo reg asignado dentro de un always
 
