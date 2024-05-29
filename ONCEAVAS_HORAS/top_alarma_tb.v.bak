@@ -1,0 +1,92 @@
+`timescale 1s / 1ms
+module top_alarma_tb;
+
+  // Parameters
+
+  //Ports
+  reg  clk;
+  reg  areset_n;
+  reg  inicio;
+  reg  intruso;
+  wire  sirena;
+
+  top_alarma  top_alarma_inst (
+    .clock(clk),
+    .areset_n(areset_n),
+    .inicio(inicio),
+    .intruso(intruso),
+    .sirena(sirena)
+  );
+
+always #1  clk = ! clk ;
+
+initial
+begin
+    $dumpfile("top_alarma_tb_1.vcd");
+    $dumpvars(0,top_alarma_tb);
+    clk = 0;
+    reset();
+    inicio = 0;
+    intruso = 0;
+    intruso_desactivado();
+    intruso_alarma_conectada_durante_espera_inicial();
+    intruso_alarma_conectada_alarma_activada(35);
+    llegar_activada();
+    intruso_alarma_conectada_alarma_activada(75);
+    llegar_activada();
+    $finish;
+
+
+
+end
+
+task reset;
+begin
+    areset_n = 1;
+    @(negedge clk) areset_n = 0;
+    repeat(2) @(negedge clk);
+    areset_n = 1;
+end
+endtask
+
+task intruso_desactivado;
+begin
+    intruso = 0;
+    inicio = 0;
+    @(negedge clk) intruso = 1;
+    repeat(2) @(negedge clk);
+    intruso = 0;
+end
+endtask
+
+task intruso_alarma_conectada_durante_espera_inicial;
+begin
+    intruso = 0;
+    inicio = 1;
+    @(negedge clk) intruso = 1;
+    repeat(2) @(negedge clk);
+    intruso = 0;   
+end
+endtask
+
+task intruso_alarma_conectada_alarma_activada;
+input integer duracion;
+begin
+    intruso = 0;
+    inicio = 1;
+    @(negedge clk) intruso = 1;
+    repeat(duracion) @(negedge clk);
+    intruso = 0;
+end
+endtask
+
+task llegar_activada;
+begin
+wait(top_alarma_inst.count==5'b00000);
+end
+endtask
+
+
+
+
+endmodule
