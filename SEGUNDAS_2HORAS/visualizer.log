@@ -1,0 +1,12 @@
+# VISUALIZERROOT = 'C:/questasim64_2023.4/win64/VisualizerRls'
+# USER = 'rgadea'
+# Mentor Graphics software version 2023.4 (Build on Oct  9 2023)
+# Copyright (C) 1999-2024 by Mentor Graphics All rights reserved.
+
+# visualizer +designfile +wavefile +vis_cell_based
+
+# 10:17:54: Loading design data...
+# 10:17:54: Loaded  design units
+# 10:17:54: Loaded  design hierarchy
+# 10:17:54: Loading waveform header...
+# 10:17:54: Loaded  waveform header

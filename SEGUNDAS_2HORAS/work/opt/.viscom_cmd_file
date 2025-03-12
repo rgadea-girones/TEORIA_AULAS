@@ -1,0 +1,1 @@
+C:/questasim64_2023.4/win64/VisualizerRls/bin/viscom.exe -nolock -quiet -jmem_size 16384 -reportprogress 300 -stats=all,qis,verbose -fsmverbose btw -debug +designfile DFF_tb -o opt +__design_bin_path+F:/hyperion2-3/I/word/docencia/SDP/TEORIA_AULAS/SEGUNDAS_2HORAS

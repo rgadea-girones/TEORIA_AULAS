@@ -1,0 +1,77 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+!s11f vlog 2024.3_1 2024.10, Oct 17 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/runner
+Tqrun_opt
+!s110 1741077803
+Vkm@[D2WM@TE5YKNz0TA:g0
+04 17 4 work Shifter_basico_tb fast 0
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+!s135 nogc
+o-access=rw+/. -timescale 1ns/1ns -mfcu +acc=npr -work qrun.out/work
+Z2 tCvgOpt 0
+nqrun_opt
+OL;O;2024.3_1;79
+vSHIFTER2D
+Z3 2design.sv|testbench.sv
+Z4 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z5 !s110 1741077802
+!i10b 1
+!s100 V4i;kT9U83JEAQYJgKL:z0
+I3hE[JE:HHS_TY<`e[ddX<2
+S1
+R1
+Z6 w1741077799
+8design.sv
+Fdesign.sv
+!i122 0
+L0 1 31
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2024.3_1;79
+r1
+!s85 0
+31
+Z9 !s108 1741077802.000000
+Z10 !s107 testbench.sv|design.sv|
+Z11 !s90 -timescale|1ns/1ns|-mfcu|design.sv|testbench.sv|-work|qrun.out/work|-statslog|qrun.out/stats_log|-writesessionid|+qrun.out/top_dus|-csession=incr|
+!i113 0
+Z12 o-timescale 1ns/1ns -mfcu -work qrun.out/work
+R2
+n@s@h@i@f@t@e@r2@d
+vShifter_basico_tb
+R3
+R4
+R5
+!i10b 1
+!s100 SEdZWdPmUf>OO=XWgJge[2
+I;^H<Ula?Z=SnUYh]mDhV30
+S1
+R1
+R6
+8testbench.sv
+Ftestbench.sv
+!i122 0
+L0 6 210
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2
+n@shifter_basico_tb

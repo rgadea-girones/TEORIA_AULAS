@@ -1,0 +1,105 @@
+<!-- THIS IS TOOL GENERATED SESSION FILE. PLEASE DO NOT MODIFY THIS -->
+<!DOCTYPE visualizer_session>
+<session version="3" skip_do_file="0">
+ <app argc="12">
+  <argv pos="0" value="vsim"/>
+  <argv pos="1" value="+loops=2"/>
+  <argv pos="2" value="+no_qwavedb_threading"/>
+  <argv pos="3" value="+qwavedb_log_taskfunc"/>
+  <argv pos="4" value="+qwavedb_log_dut_all"/>
+  <argv pos="5" value="+qwavedb_log_assertion"/>
+  <argv pos="6" value="+class_filter_file+class_filter.txt"/>
+  <argv pos="7" value="+qwavedb_log_memory+4096,4"/>
+  <argv pos="8" value="+qwavedb_log_transaction"/>
+  <argv pos="9" value="+qwavedb_log_dyn_array+20"/>
+  <argv pos="10" value="+designfile+design.bin"/>
+  <argv pos="11" value="+_sv_debug_+vsim-stats=all,qis,verbose-printsimstats=1,v-uvmcontrol=all-qwavedb=+livesim+statictaskfunc+signal+assertion=pass+class=class_filter.txt+report=class+memory=4096,4+transaction+uvm_schematic+msgmode=both+displaymsgmode=both+dynarray=20+queue+loops=2-visualizeropt+no_qwavedb_threading-classdebug+qwavedb_log_taskfunc+qwavedb_log_dut_all+qwavedb_log_assertion-classdebug+class_filter_file+class_filter.txt+qwavedb_log_memory+4096,4+qwavedb_log_transaction-msgmodeboth-displaymsgmodeboth+qwavedb_log_dyn_array+20-uvmcontrol=+struct,+trlog,+msglog"/>
+ </app>
+ <window_config>
+  <dockareas bottom="457" top="0" right="731" left="305"/>
+  <taborder bottom="transcript+" right="schematic+" left="testbench+files+structure+"/>
+  <activetab bottom="transcript" activewindow="structure" right="schematic" left="structure"/>
+  <window y="0" x="0" dock_location="left" visible="1" type="testbench" undocked="0"/>
+  <window y="0" x="0" dock_location="left" visible="1" type="files" undocked="0"/>
+  <window y="0" x="0" dock_location="left" visible="1" type="structure" undocked="0"/>
+  <window y="0" x="0" dock_location="right" visible="1" type="schematic" undocked="0"/>
+  <window y="0" x="0" dock_location="bottom" visible="1" type="transcript" undocked="0"/>
+  <window y="-8" x="2559" height="1009" visible="1" type="rtl" width="1920" undocked="0"/>
+  <window y="81" x="3158" dock_location="bottom" height="616" visible="1" type="wave" width="1076" undocked="1"/>
+  <window y="0" x="0" dock_location="center" path="K:/F/hyperion2-3/I/word/docencia/SDP/TEORIA_AULAS/SEGUNDAS_2HORAS/tb_flip_flop_D.v" visible="0" type="source" undocked="0" firstVisibleLine="0"/>
+  <window y="0" x="0" dock_location="center" path="F:/hyperion2-3/I/word/docencia/SDP/TEORIA_AULAS/SEGUNDAS_2HORAS/tb_flip_flop_D.v" id="1" visible="1" type="source" undocked="0" firstVisibleLine="14"/>
+  <window y="0" x="0" dock_location="right" visible="0" type="instances" undocked="0"/>
+ </window_config>
+ <wave_file_mgr>
+  <waveFile tagName="sim" waveType="0" fileName="F:\hyperion2-3\I\word\docencia\SDP\TEORIA_AULAS\OCTAVAS_HORAS\contador_basico.v/qwave.db"/>
+ </wave_file_mgr>
+ <gui>
+  <main_window visible="1">
+   <srcbrowser filepath="K:/F/hyperion2-3/I/word/docencia/SDP/TEORIA_AULAS/SEGUNDAS_2HORAS/tb_flip_flop_D.v"/>
+   <sourcetclcommands>
+    <tcl command="src activate source"/>
+    <tcl command="src top 1"/>
+   </sourcetclcommands>
+   <srcbrowser primary="true" instancename="DFF_tb" filepath="F:/hyperion2-3/I/word/docencia/SDP/TEORIA_AULAS/SEGUNDAS_2HORAS/tb_flip_flop_D.v"/>
+   <sourcetclcommands>
+    <tcl command="src activate source1"/>
+    <tcl command="src top 15"/>
+   </sourcetclcommands>
+   <edge_gui cur_selection="AnyEdge"/>
+  </main_window>
+  <watchTower_cur_setting curActiveWaveFile="sim" curDisplayTimeUnitStr="1ns" customDisplayTimeUnitListStr="" curRadix="0" curDisplayTimeUnit="-9">
+   <curTime hightime="0" lowtime="100"/>
+  </watchTower_cur_setting>
+  <testbench/>
+  <files/>
+  <structure selection="DFF_tb"/>
+  <schematic grey_mode="0" show_values="0" wf_diff="0" time_sync="1" value_tooltip="0" trace_action="0" zoom_and_center="0" clock_domain="0" upf_action="0" schem_sync="1" src_sync="1">
+   <command value="DFF_tb"/>
+   <cur_viewport scroll_pos="-17 -1" page_num="1" zoom_factor="1.12836"/>
+  </schematic>
+  <transcript/>
+  <wave name="Wave0">
+   <timeunit value="11"/>
+   <frequnit value="2"/>
+   <showdiff value="0"/>
+  </wave>
+ </gui>
+ <wave_mgr sync_time_range="0">
+  <waveWindow displayRadixWithValue="1" swapRepresentationOfX="0" displayTimeUnitStr="1ns" displayTimeUnit="-9" displayLeadingZeros="0" displayGrid="0" trackViewToTime="1" wintype="4" valueWidth="83" alignBaseName="0" justifySignalPath="Right" secNudge="1" signalHeight="18" primNudge="1" nameWidth="148" waveWidth="800" showSecCursor="1" displayGlobalView="1" displayFileTag="1" snapToEdge="1" showMarkers="1" value_tooltip="0" displayScopeName="1">
+   <window name="Wave0">
+    <timeunit value="11"/>
+    <frequnit value="2"/>
+    <showdiff value="0"/>
+   </window>
+   <viewPort>
+    <beginTime hightime="0" lowtime="0"/>
+    <endTime hightime="0" lowtime="100"/>
+    <beginViewTime hightime="0" lowtime="0"/>
+    <endViewTime hightime="0" lowtime="100"/>
+    <beginLastViewTime hightime="0" lowtime="0"/>
+    <endLastViewTime hightime="0" lowtime="100"/>
+   </viewPort>
+   <primCursor hightime="0" lowtime="100"/>
+   <secCursor hightime="0" lowtime="0"/>
+   <wavetclcommands>
+    <tcl command="onerror resume&#xa;wave update off&#xa;wave clearselection&#xa;"/>
+    <tcl commandblock="custom radix definitions"></tcl>
+    <tcl command="wave update off"/>
+    <tcl command="wave zoom range 0 100"/>
+    <tcl command="wave group DFF_tb -backgroundcolor #004466"/>
+    <tcl command="wave add -group DFF_tb DFF_tb.clk -tag sim -select"/>
+    <tcl command="wave add -group DFF_tb DFF_tb.d -tag sim -select"/>
+    <tcl command="wave add -group DFF_tb DFF_tb.clear -tag sim -select"/>
+    <tcl command="wave add -group DFF_tb DFF_tb.q -tag sim -select"/>
+    <tcl command="wave add -group DFF_tb DFF_tb.qb -tag sim -select"/>
+    <tcl command="wave insertion [expr [wave index insertpoint] + 1]"/>
+    <tcl command="wave update on"/>
+    <tcl command="wave top 0"/>
+    <tcl command=""/>
+   </wavetclcommands>
+  </waveWindow>
+ </wave_mgr>
+ <mem_mgr/>
+ <windows/>
+ <dut selection="DFF_tb"/>
+</session>

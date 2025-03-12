@@ -1,9 +1,9 @@
-
+//`default_nettype none
 module 	muxt(in0, in1, sel, out);
 // Declaración Inputs y Outputs
-input [7:0]	 in0, in1;
-input	      sel;
-output [7:0]	 out;
+input wire [7:0]	 in0, in1;
+input	wire      sel;
+output wire [7:0] 	 out;
 // Descripción de los nodos internos
 wire [7:0]	 y0;
 // Conexionado por orden
@@ -27,7 +27,7 @@ always @(a or b or sl)
 		y = b;
 
 endmodule
-module     mux_assign #(parameter WIDTH=8) 
+module     mux_assign #(parameter  WIDTH=8) 
 (
     input	[WIDTH-1:0]	a, b,
     input		sl,

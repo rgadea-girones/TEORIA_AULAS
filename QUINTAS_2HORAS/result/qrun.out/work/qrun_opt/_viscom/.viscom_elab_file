@@ -1,0 +1,1 @@
+/usr/share/questa/questasim/linux_x86_64/VisualizerRls/bin/viscom -nolock -quiet -jmem_size 393216 -access=rw+/. -timescale 1ns/1ns -mfcu Shifter_basico_tb -work qrun.out/work -o qrun_opt -genidl -refresh_duidl /home/runner/qrun.out/work/qrun_opt/duidl_1 -nodesignbin

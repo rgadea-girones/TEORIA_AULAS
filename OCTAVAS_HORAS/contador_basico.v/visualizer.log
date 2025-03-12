@@ -1,0 +1,16 @@
+# VISUALIZERROOT = 'C:/questasim64_2023.4/win64/VisualizerRls'
+# USER = 'rgadea'
+# Mentor Graphics software version 2023.4 (Build on Oct  9 2023)
+# Copyright (C) 1999-2024 by Mentor Graphics All rights reserved.
+
+# visualizer +designfile +wavefile +vis_cell_based
+
+# 09:49:12: Loading design data...
+# 09:49:12: Loaded  design units
+# 09:49:12: Loaded  design hierarchy
+# No Variables within the source window have been selected for this operation
+# Window layout 'Default' saved in file: C:/Users/rgadea/.visualizer/layout.xml
+# Start  : Fri Sep  6 09:49:08 2024
+# End    : Fri Sep  6 09:52:24 2024
+# VMSize : 205062144
+# VMPeak : 205127680

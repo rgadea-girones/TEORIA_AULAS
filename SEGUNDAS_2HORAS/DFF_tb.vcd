@@ -1,8 +1,8 @@
 $date
-	Wed Feb 21 13:22:48 2024
+	Wed Feb 12 12:25:04 2025
 $end
 $version
-	QuestaSim Version 2020.2
+	QuestaSim Version 2024.3
 $end
 $timescale
 	1ns
@@ -14,6 +14,14 @@ $var reg 1 " d $end
 $var reg 1 # clear $end
 $var wire 1 $ q $end
 $var wire 1 % qb $end
+
+$scope module DFF_inst $end
+$var wire 1 & clk $end
+$var wire 1 ' d $end
+$var wire 1 ( clear $end
+$var reg 1 ) q $end
+$var reg 1 * qb $end
+$upscope $end
 $upscope $end
 $enddefinitions $end
 #0
@@ -21,73 +29,112 @@ $dumpvars
 0!
 1"
 1#
+x)
+x*
 x$
 x%
+1(
+1'
+0&
 $end
 #5
 1!
+1&
 #7
 0#
+0(
 #10
 0!
+0&
 #11
+0)
 0$
 #12
+1*
 1%
 #13
+1)
 1$
 #14
+0*
 0%
 #15
 1!
+1&
 #17
 0"
+0'
 #20
 0!
+0&
 #23
 1#
+1(
 #25
 1!
+1&
 #30
 0!
+0&
 #33
+0)
 0$
 #34
+1*
 1%
 #35
 1!
+1&
 #40
 1"
 0!
+1'
+0&
+#43
+1)
+1$
+#44
+0*
+0%
 #45
 1!
+1&
 #47
 0"
+0'
 #50
 0!
+0&
 #53
-1$
+0)
+0$
 #54
-0%
+1*
+1%
 #55
 1!
+1&
 #60
 0!
-#63
-0$
-#64
-1%
+0&
 #65
 1!
+1&
 #70
 0!
+0&
 #75
 1!
+1&
 #80
 0!
+0&
 #85
 1!
+1&
 #90
 0!
+0&
 #95
 1!
+1&

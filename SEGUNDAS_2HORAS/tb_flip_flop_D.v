@@ -10,7 +10,7 @@ module DFF_tb;
   wire  q;
   wire  qb;
 
-  DFF  DFF_inst (
+  DFF_2  DFF_inst (
     .clk(clk),
     .d(d),
     .clear(clear),
@@ -21,7 +21,7 @@ module DFF_tb;
 always #5  clk = ! clk ;
 
 initial begin
-  $dumpfile("DFF_tb.vcd");
+  $dumpfile("DFF_tb2.vcd");
   $dumpvars(0, DFF_tb);
   #100 $finish;
 end

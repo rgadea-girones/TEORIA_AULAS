@@ -4,16 +4,17 @@ module cont4bits_tb_reducido;
   // Parameters
 
   //Ports
-  reg  clk;
+  reg  clk; //!puerto de reloj
   reg   reset;
   reg   enable;
   wire [3:0] Q;
   wire  TC;
 
-  cont4bits  cont4bits_inst (
+  cont4bits2  cont4bits_inst (
     .clk(clk),
     . reset_n( reset),
     . enable( enable),
+   // .updown(1'b1),
     .Q(Q),
     .TC(TC)
   );
@@ -21,7 +22,7 @@ module cont4bits_tb_reducido;
 always #5  clk = ! clk ;
 initial //reset activo a nivel bajo y empiezo con reset desactivo
 begin
-    $dumpfile("cont4bits_tb_bad2.vcd");
+    $dumpfile("cont4bits_tb_bad5.vcd");
     $dumpvars(0,cont4bits_tb_reducido);
     clk = 0;
     reset = 1;

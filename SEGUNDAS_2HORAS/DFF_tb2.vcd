@@ -1,0 +1,131 @@
+$date
+	Wed Feb 12 13:25:45 2025
+$end
+$version
+	QuestaSim Version 2024.3
+$end
+$timescale
+	1ns
+$end
+
+$scope module DFF_tb $end
+$var reg 1 ! clk $end
+$var reg 1 " d $end
+$var reg 1 # clear $end
+$var wire 1 $ q $end
+$var wire 1 % qb $end
+
+$scope module DFF_inst $end
+$var wire 1 & clk $end
+$var wire 1 ' d $end
+$var wire 1 ( clear $end
+$var reg 1 ) q $end
+$var reg 1 * qb $end
+
+$scope begin sincrono $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1"
+1#
+x)
+x*
+x$
+x%
+1(
+1'
+0&
+$end
+#5
+1!
+1&
+#7
+0#
+0(
+#10
+0!
+0&
+#11
+0)
+0$
+#12
+1*
+1%
+#15
+1!
+1&
+#17
+0"
+0'
+#20
+0!
+0&
+#23
+1#
+1(
+#25
+1!
+1&
+#30
+0!
+0&
+#35
+1!
+1&
+#40
+1"
+0!
+1'
+0&
+#45
+1!
+1&
+#47
+0"
+0'
+#50
+0!
+0&
+#53
+1)
+1$
+#54
+0*
+0%
+#55
+1!
+1&
+#60
+0!
+0&
+#63
+0)
+0$
+#64
+1*
+1%
+#65
+1!
+1&
+#70
+0!
+0&
+#75
+1!
+1&
+#80
+0!
+0&
+#85
+1!
+1&
+#90
+0!
+0&
+#95
+1!
+1&
